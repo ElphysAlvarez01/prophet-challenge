@@ -35,7 +35,7 @@ Integrated search data with stock price movements to explore correlations. Analy
 
 **Lagged Search Trends and Hourly Stock Return:** The correlation coefficient between lagged search trends and hourly stock return is 0.017929. This indicates a very weak positive relationship. The relationship is so weak that it suggests lagged search trends have almost no predictive power over hourly stock returns.
 
-**Based on these correlations:** There is a weak negative relationship between lagged search traffic and stock volatility, suggesting that as search traffic increases (with a lag), stock volatility might slightly decrease, but the effect is not strong enough to be considered highly reliable for prediction. There is a very weak positive relationship between lagged search traffic and hourly stock returns, indicating almost no predictive relationship. In conclusion, while there are slight correlations, the lagged search traffic does not exhibit a strong predictable relationship with either stock volatility or stock price returns based on the provided data.
+**Based on these correlations:** The data shows a small negative link between past search traffic and stock volatility, meaning that when search traffic goes up, stock volatility might go down a bit, but this isn’t strong enough to rely on. There’s also a very weak positive link between past search traffic and hourly stock returns, which means they don't really predict each other. In short, past search traffic doesn't strongly predict stock volatility or stock returns.
 
 **Step 4: Time Series Forecasting with Prophet**
 
