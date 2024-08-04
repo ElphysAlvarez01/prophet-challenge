@@ -1,4 +1,4 @@
-# prophet-challenge
+# Prophet-Challenge 
 prophet-challenge Mercado Stock Analysis
 
 ## Project Summary: 
@@ -16,6 +16,8 @@ prophet-challenge Mercado Stock Analysis
 
 Investigated Google search data for May 2020 to identify spikes in search trends coinciding with the release of quarterly financial results. Findings showed that Google search traffic for MercadoLibre rose by 1.08 during the month of the financial release.
 
+--------------------------------------------------------------------------------------------------------------------------------------------
+
 **Step 2: Identify Search Traffic Seasonality Trends by Hourly, Weekday, and Week of Year**
 
 Assessed search traffic patterns across hourly, daily, and weekly intervals. Determined peak user activity times and days, providing valuable insights for targeted marketing strategies.
@@ -23,6 +25,8 @@ Assessed search traffic patterns across hourly, daily, and weekly intervals. Det
 An uptrend begins at 9:30 AM when the market opens.
 The uptrend starts on Monday with the market opening and continues through Tuesday, followed by a decline for the rest of the week.
 There is a downtrend from the start of the year until May, followed by an uptrend during the holiday season at the end of the year.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 **Step 3: Correlate Search Traffic with Stock Price Patterns**
 
@@ -35,7 +39,9 @@ Integrated search data with stock price movements to explore correlations. Analy
 
 **Lagged Search Trends and Hourly Stock Return:** The correlation coefficient between lagged search trends and hourly stock return is 0.017929. This indicates a very weak positive relationship. The relationship is so weak that it suggests lagged search trends have almost no predictive power over hourly stock returns.
 
-**Based on these correlations:** The data shows a small negative link between past search traffic and stock volatility, meaning that when search traffic goes up, stock volatility might go down a bit, but this isn’t strong enough to rely on. There’s also a very weak positive link between past search traffic and hourly stock returns, which means they don't really predict each other. In short, past search traffic doesn't strongly predict stock volatility or stock returns.
+> **Based on these correlations:** The data shows a small negative link between past search traffic and stock volatility, meaning that when search traffic increases, stock volatility might go down a bit, but this isn’t strong enough to rely on. There’s also a weak positive link between past search traffic and hourly stock returns, which means they don't predict each other. In short, past search traffic doesn't strongly predict stock volatility or stock returns.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 **Step 4: Time Series Forecasting with Prophet**
 
